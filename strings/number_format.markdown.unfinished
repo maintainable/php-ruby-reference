@@ -1,0 +1,15 @@
+# number_format
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/money_format
+    strings/sprintf
+    strings/printf
+    strings/sscanf
+}}

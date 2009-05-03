@@ -1,0 +1,12 @@
+# convert_uudecode
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:                
+    strings/convert_uuencode
+}}

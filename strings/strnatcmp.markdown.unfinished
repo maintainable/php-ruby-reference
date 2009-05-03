@@ -1,0 +1,22 @@
+# strnatcmp
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    pcre/preg_match
+    strings/strcasecmp
+    strings/substr
+    strings/stristr
+    strings/strcmp
+    strings/strncmp
+    strings/strncasecmp
+    strings/strnatcasecmp
+    strings/strstr
+    array/natsort
+    array/natcasesort
+}}

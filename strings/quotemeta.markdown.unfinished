@@ -1,0 +1,18 @@
+# quotemeta
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/addslashes
+    strings/addcslashes
+    strings/htmlentities
+    strings/htmlspecialchars
+    strings/nl2br
+    strings/stripslashes
+    strings/stripcslashes
+}}

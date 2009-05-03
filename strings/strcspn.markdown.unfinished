@@ -1,0 +1,12 @@
+# strcspn
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/strspn
+}}

@@ -1,0 +1,17 @@
+# strncasecmp
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    pcre/preg_match
+    strings/strcmp
+    strings/strcasecmp
+    strings/substr
+    strings/stristr
+    strings/strstr
+}}

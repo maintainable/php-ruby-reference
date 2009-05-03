@@ -1,0 +1,13 @@
+# similar_text
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/levenshtein
+    strings/soundex
+}}

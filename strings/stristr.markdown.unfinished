@@ -1,0 +1,15 @@
+# stristr
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/strstr
+    strings/strrchr
+    strings/substr
+    pcre/preg_match
+}}

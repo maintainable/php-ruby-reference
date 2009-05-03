@@ -1,0 +1,14 @@
+# sscanf
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/fscanf
+    strings/printf
+    strings/sprintf
+}}

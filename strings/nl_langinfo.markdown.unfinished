@@ -1,0 +1,13 @@
+# nl_langinfo
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/setlocale
+    strings/localeconv
+}}

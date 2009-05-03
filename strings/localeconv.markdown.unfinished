@@ -1,0 +1,12 @@
+# localeconv
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/strrpos
+}}

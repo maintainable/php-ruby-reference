@@ -1,0 +1,20 @@
+# strnatcasecmp
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    pcre/preg_match
+    strings/strcmp
+    strings/strcasecmp
+    strings/substr
+    strings/stristr
+    strings/strncasecmp
+    strings/strncmp
+    strings/strstr
+    strings/setlocale
+}}

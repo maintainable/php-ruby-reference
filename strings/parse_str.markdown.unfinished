@@ -1,0 +1,16 @@
+# parse_str
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/parse_url
+    strings/pathinfo
+    url/html_entity_decode
+    strings/get_magic_quotes_gpc
+    url/urldecode
+}}

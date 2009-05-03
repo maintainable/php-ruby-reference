@@ -1,0 +1,14 @@
+# get_html_translation_table
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/htmlspecialchars
+    strings/htmlentities
+    strings/html_entity_decode
+}}

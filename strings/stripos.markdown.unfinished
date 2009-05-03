@@ -1,0 +1,19 @@
+# stripos
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/strpos
+    strings/strrpos
+    strings/strrchr
+    strings/substr
+    strings/stristr
+    strings/strstr
+    strings/strripos
+    strings/str_ireplace
+}}
