@@ -1,0 +1,24 @@
+# natcasesort
+
+{{code:php
+    $array = array('a10', 'A1', 'A20', 'a2');
+    sort($array);
+    var_export($result);
+    // => array(0 => 'A1', 1 => 'A20', 2 => 'a10', 3 => 'a2')
+
+    $array = array('a10', 'A1', 'A20', 'a2');
+    natcasesort($array);
+    var_export($result);
+    // => array(1 => 'A1', 3 => 'a2', 0 => 'a10', 2 => 'A20')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:    
+    array/sort    
+    array/natsort 
+    strings/strnatcmp   
+    strings/strnatcasecmp
+}}

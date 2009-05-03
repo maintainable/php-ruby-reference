@@ -1,0 +1,17 @@
+# array_merge_recursive
+
+{{notice:
+    This function's solution uses a Ruby `Hash` object since Ruby arrays don't
+    use associative key/value pairs. See [Array](../array) for more details.
+}}
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/array_merge
+}}

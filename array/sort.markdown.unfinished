@@ -1,0 +1,26 @@
+# sort
+
+{{code:php
+    $array = array('b' => 'cat', 'c' => 'ant', 'a' => 'bat');
+    sort($array);
+    var_export($result);
+    // => array(0 => 'ant', 1 => 'bat', 2 => 'cat')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/arsort
+    array/asort
+    array/ksort
+    array/krsort
+    array/natsort
+    array/natcasesort
+    array/rsort
+    array/usort
+    array/array_multisort
+    array/uksort
+}}
+

@@ -1,0 +1,22 @@
+# uasort
+
+{{code:php
+    $array = array('b' => 'cat', 'c' => 'ant', 'a' => 'bat');
+    sort($array);
+    var_export($result);
+    // => array(0 => 'ant', 1 => 'bat', 2 => 'cat')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/usort
+    array/uksort
+    array/sort
+    array/asort
+    array/arsort
+    array/ksort
+    array/rsort
+}}

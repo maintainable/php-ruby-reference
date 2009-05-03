@@ -1,0 +1,23 @@
+# extract
+
+{{code:php
+    $array = array('a' => 'red', 
+                   'b' => 'yellow', 
+                   'c' => 'orange');
+    extract($array);
+
+    print $a."\n";
+    // => 'red'
+    print $b."\n";
+    // => 'yellow'
+    print $c."\n";
+    // => 'orange'
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/compact
+}}

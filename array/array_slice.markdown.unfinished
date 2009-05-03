@@ -1,0 +1,30 @@
+# array_slice
+
+{{code:php
+    $array = array(1, 2, 3, 4, 5);
+    $result = array_slice($array, 3);
+    var_export($result);
+    // => array(0 => 4, 1 => 5)
+
+    $result = array_slice($array, 1, 2);
+    var_export($result);
+    // => array(0 => 2, 1 => 3)
+
+    $result = array_slice($array, -1, 2);
+    var_export($result);
+    // => array(0 => 5)
+
+    // preserve keys
+    $result = array_slice($array, -1, 2, true);
+    var_export($result);
+    // => array(4 => 5)
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/array_splice
+    array/unset
+}}

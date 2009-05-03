@@ -1,0 +1,18 @@
+# compact
+
+{{code:php
+    $a = 'apple';
+    $b = 'banana';
+    $c = 'orange';
+    $result = compact('a', 'b', 'c');
+    var_export($result);
+    // => array('a' => 'apple', 'b' => 'banana', 'c' => 'orange')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/extract
+}}

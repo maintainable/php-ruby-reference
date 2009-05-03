@@ -1,0 +1,22 @@
+# array_pad
+
+{{code:php
+    $array = array('a', 'b', 'c');
+
+    $result = array_pad($array, 5, 'z');
+    var_export($result);
+    // => array(0 => 'a', 1 => 'b', 2 => 'c', 3 => 'z', 4 => 'z')
+
+    $result = array_pad($array, -5, 'z');
+    var_export($result);
+    // => array(0 => 'z', 1 => 'z', 2 => 'a', 3 => 'b', 4 => 'c')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/array_fill
+    array/range
+}}

@@ -1,0 +1,19 @@
+# array_intersect
+
+{{code:php
+    $array1 = array('apple', 'kiwi', 'banana');
+    $array2 = array('apple', 'kiwi', 'orange');
+    $result = array_intersect($array1, $array2);
+    var_export($result);
+    // => array('apple', 'kiwi')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/array_intersect_assoc
+    array/array_diff          
+    array/array_diff_assoc
+}}

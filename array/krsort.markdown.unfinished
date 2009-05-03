@@ -1,0 +1,21 @@
+# krsort
+
+{{code:php
+    $array = array('b' => 'cat', 'c' => 'ant', 'a' => 'bat');
+    krsort($array);
+    var_export($result);
+    // => array('c' => 'ant', 'b' => 'cat', 'a' => 'bat')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/asort               
+    array/arsort              
+    array/ksort               
+    array/sort                
+    array/natsort         
+    array/rsort
+}}

@@ -1,0 +1,44 @@
+# array_map
+
+{{code:php
+    // user defined function
+    function mapLength($elt) {
+       return strlen($elt);
+    }
+    $a = array('red', 'orange', 'blue');
+    $result = array_map('mapLength', $a);
+    var_export($result);
+    // => array(0 => 3, 1 => 6, 2 => 4)
+
+
+    function mapCountry($k, $v) {
+       return array($k => $v);
+    }
+    // multiple arrays
+    $a = array('Lisbon',   'Toronto', 'New York');
+    $b = array('Portugal', 'Canada',  'USA');
+
+    $result = array_map('mapCountry', $a, $b);
+    var_export($result);
+    // => array(0 => array('Lisbon' => 'Portugal'),
+    //          1 => array('Toronto' => 'Canada'),
+    //          2 => array('New York' => 'USA'))
+
+    // default behavior using multiple arrays
+    $result = array_map(null, $a, $b);
+    var_export($result);
+    // => array(0 => array(0 => 'Lisbon',   1 => 'Portugal'),
+    //          1 => array(0 => 'Toronto'   1 => 'Canada'),
+    //          2 => array(0 => 'New York', 1 => 'USA'))
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/array_filter        
+    array/array_reduce   
+    array/array_walk   
+    function/create_function
+}}

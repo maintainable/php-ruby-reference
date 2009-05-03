@@ -1,0 +1,19 @@
+# asort
+
+{{code:php
+    $array = array('b' => 'cat', 'c' => 'ant', 'a' => 'bat');
+    asort($array);
+    var_export($result);
+    // => array('c' => 'ant', 'a' => 'bat', 'b' => 'cat')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/arsort 
+    array/rsort    
+    array/ksort  
+    array/sort
+}}

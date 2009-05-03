@@ -1,0 +1,35 @@
+# uksort
+
+{{code:php
+    function compareLength($a, $b) {
+        if (strlen($a) == strlen($b)) {
+            return 0;
+        }
+        return (strlen($a) > strlen($b)) ? 1 : -1;
+    }
+
+    $array = array('avacado' => 'green',
+                   'orange'  => 'orange',
+                   'apple'   => 'red');
+    uksort($array, 'compareLength');
+    var_export($result);
+    // => array('apple'   => 'red',
+    //          'orange'  => 'orange',
+    //          'avacado' => 'green')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/usort
+    array/uasort
+    array/sort
+    array/asort
+    array/arsort
+    array/ksort
+    array/natsort
+    array/rsort
+}}
+

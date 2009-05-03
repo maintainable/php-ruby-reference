@@ -1,0 +1,36 @@
+# array_splice
+
+{{code:php
+    $array = array('a', 'b', 'c', 'd', 'e');
+    $result = array_splice($array, 3);
+    var_export($result);
+    // => array(0 => 'd', 1 => 'e')
+
+    var_export($result);
+    // => array(0 => 'a', 1 => 'b', 2 => 'c')
+
+    $array = array('a', 'b', 'c', 'd', 'e');
+    $result = array_splice($array, 1, 2);
+    var_export($result);
+    // => array(0 => 'b', 1 => 'c')
+
+    var_export($result);
+    // => array(0 => 'a', 1 => 'd', 2 => 'e')
+
+    $array = array('a', 'b', 'c', 'd', 'e');
+    $result = array_splice($array, 1, 2, array('f', 'g'));
+    var_export($result);
+    // => array(0 => 'b', 1 => 'c');
+
+    var_export($result);
+    // => array(0 => 'a', 1 => 'f', 2 => 'g', 3 => 'd', 4 => 'e')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:                
+    array/array_slice        
+    array/array_merge
+}}

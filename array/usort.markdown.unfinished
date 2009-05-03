@@ -1,0 +1,34 @@
+# usort
+
+{{code:php
+    function compareLength($a, $b) {
+        if (strlen($a) == strlen($b)) {
+            return 0;
+        }
+        return (strlen($a) > strlen($b)) ? 1 : -1;
+    }
+
+    $array = array('avacado' => 'green',
+                   'orange'  => 'orange',
+                   'apple'   => 'red');
+    usort($array, 'compareLength');
+    var_export($result);
+    // => array(0 => 'red', 
+    //          1 => 'green', 
+    //          2 => 'orange')
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/uasort
+    array/uksort
+    array/sort
+    array/asort
+    array/arsort
+    array/ksort
+    array/natsort
+    array/rsort
+}}
