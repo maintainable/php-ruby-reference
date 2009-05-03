@@ -1,0 +1,12 @@
+# move_uploaded_file
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:                
+    filesystem/is_uploaded_file
+}}

@@ -1,0 +1,19 @@
+# fgets
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/fgetss
+    filesystem/fread
+    filesystem/fgetc
+    filesystem/stream_get_line
+    filesystem/fopen
+    filesystem/popen
+    filesystem/fsockopen
+    filesystem/stream_set_timeout
+}}

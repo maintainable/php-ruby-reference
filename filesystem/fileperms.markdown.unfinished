@@ -1,0 +1,13 @@
+# fileperms
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:                
+    filesystem/is_readable    
+    filesystem/stat
+}}

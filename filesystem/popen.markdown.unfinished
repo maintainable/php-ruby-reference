@@ -1,0 +1,14 @@
+# popen
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/pclose         
+    filesystem/fopen          
+    filesystem/proc_open
+}}

@@ -1,0 +1,14 @@
+# import_request_variables
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    array/extract
+}}

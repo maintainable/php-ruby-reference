@@ -1,0 +1,12 @@
+# fputcsv
+         
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/fgetcsv
+}}

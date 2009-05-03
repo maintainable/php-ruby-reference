@@ -1,0 +1,14 @@
+# register_shutdown_function
+
+                            
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    misc/exit
+}}           

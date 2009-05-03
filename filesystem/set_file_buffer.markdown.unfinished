@@ -1,0 +1,12 @@
+# set_file_buffer
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/stream_set_write_buffer
+}}

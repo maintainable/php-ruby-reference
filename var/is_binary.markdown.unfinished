@@ -1,0 +1,16 @@
+# is_binary
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/is_buffer
+    var/is_string
+    var/is_unicode
+}}

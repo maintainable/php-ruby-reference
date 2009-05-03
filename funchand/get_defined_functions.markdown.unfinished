@@ -1,0 +1,17 @@
+# get_defined_functions
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    funchand/function_exists
+    var/get_defined_vars
+    info/get_defined_constants
+    classobj/get_declared_classes
+}}

@@ -1,0 +1,17 @@
+# fscanf
+        
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/fread
+    filesystem/fgets
+    filesystem/fgetss
+    strings/sscanf
+    strings/printf
+    strings/sprintf
+}}

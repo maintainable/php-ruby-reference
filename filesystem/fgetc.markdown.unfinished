@@ -1,0 +1,15 @@
+# fgetc
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+{{related:
+    filesystem/fread
+    filesystem/fopen
+    filesystem/popen
+    filesystem/fsockopen
+    filesystem/fgets
+}}

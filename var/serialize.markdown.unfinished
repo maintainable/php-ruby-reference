@@ -1,0 +1,14 @@
+# serialize
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/unserialize
+}}

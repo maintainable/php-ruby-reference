@@ -1,0 +1,15 @@
+# glob
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/opendir        
+    filesystem/readdir        
+    filesystem/closedir       
+    filesystem/fnmatch
+}}

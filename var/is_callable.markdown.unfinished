@@ -1,0 +1,15 @@
+# is_callable
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    funchand/function_exists
+    classobj/method_exists
+}}

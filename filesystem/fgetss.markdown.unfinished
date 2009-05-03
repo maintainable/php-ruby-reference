@@ -1,0 +1,16 @@
+# fgetss
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/fgets
+    filesystem/fopen
+    filesystem/popen
+    filesystem/fsockopen
+    filesystem/strip_tags
+}}

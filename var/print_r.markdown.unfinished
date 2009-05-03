@@ -1,0 +1,16 @@
+# print_r
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    outcontrol/ob_start
+    var/var_dump
+    var/var_export
+}}

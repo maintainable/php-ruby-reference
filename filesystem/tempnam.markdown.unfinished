@@ -1,0 +1,15 @@
+# tempnam
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    filesystem/tmpfile
+    filesystem/sys_get_temp_dir
+    filesystem/unlink
+}}

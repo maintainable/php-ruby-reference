@@ -1,0 +1,14 @@
+# linkinfo
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:                
+    filesystem/symlink        
+    filesystem/link           
+    filesystem/readlink
+}}

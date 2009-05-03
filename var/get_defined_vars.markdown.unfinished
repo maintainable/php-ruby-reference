@@ -1,0 +1,16 @@
+# get_defined_vars
+                  
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/isset
+    var/get_defined_functions
+    info/get_defined_constants
+}}

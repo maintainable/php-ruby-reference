@@ -1,0 +1,16 @@
+# fgetcsv
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:
+    strings/str_getcsv
+    strings/explode
+    filesystem/file
+    strings/pack
+    filesystem/fputcsv
+}}

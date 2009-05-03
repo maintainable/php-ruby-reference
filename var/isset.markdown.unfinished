@@ -1,0 +1,18 @@
+# isset
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/empty
+    var/unset
+    misc/defined
+    array/array_key_exists
+    var/is_null
+}}

@@ -1,0 +1,19 @@
+# scandir
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    dir/opendir
+    dir/readdir
+    filesystem/glob
+    filesystem/is_dir
+    array/sort
+}}
+

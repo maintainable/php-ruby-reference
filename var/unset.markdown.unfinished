@@ -1,0 +1,16 @@
+# unset
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/isset
+    var/empty
+    array/array_splice
+}}

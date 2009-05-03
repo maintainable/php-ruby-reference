@@ -1,0 +1,17 @@
+# intval
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/floatval
+    var/strval
+    var/settype
+    var/is_numeric
+}}

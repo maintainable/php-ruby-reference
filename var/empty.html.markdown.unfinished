@@ -1,0 +1,18 @@
+# empty
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/isset
+    var/unset
+    array/array_key_exists
+    array/count
+    strings/strlen
+}}

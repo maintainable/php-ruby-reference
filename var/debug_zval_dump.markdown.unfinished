@@ -1,0 +1,15 @@
+# debug_zval_dump
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/var_dump
+    errorfunc/debug_backtrace
+}}

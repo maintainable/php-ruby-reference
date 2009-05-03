@@ -1,0 +1,16 @@
+# fnmatch
+
+{{code:php
+}}
+
+{{code:ruby
+}}
+
+
+{{related:                
+    filesystem/glob           
+    regex/ereg                
+    pcre/preg_match           
+    strings/printf            
+    strings/sprintf
+}}

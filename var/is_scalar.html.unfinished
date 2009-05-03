@@ -1,0 +1,21 @@
+# is_scalar
+
+
+{{code:php
+}}
+
+
+{{code:ruby
+}}
+
+
+{{related:
+    var/is_float
+    var/is_int
+    var/is_numeric
+    var/is_real
+    var/is_string
+    var/is_bool
+    var/is_object
+    var/is_array
+}}
