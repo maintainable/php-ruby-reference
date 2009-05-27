@@ -40,6 +40,20 @@ files in this repository to see it.
 
 We're added these simple extensions to the standard Markdown syntax:
 
+### Notices
+
+A block surrounded with braces and a `notice:` marker is used at the top 
+of pages to get the attention of the reader:
+
+    {{notice:
+        This function’s solution will only work within the context 
+        of the Rails framework.     
+    }}
+
+Our most common use for these notices is to advise the reader of certain
+assumptions that we have made, e.g. that the solution is designed for Rails 
+or a Unix-like operating system.
+
 ### Code Snippets
 
 Code snippets are surrounded with braces and a `code:` marker that hint 
