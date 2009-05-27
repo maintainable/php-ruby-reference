@@ -60,7 +60,7 @@ Code snippets are surrounded with braces and a `code:` marker that hint
 about the source code within them:
 
     {{code:php
-        array = array('chicago', 'london', 'paris');
+        $array = array('chicago', 'london', 'paris');
         var_export($array);
         // => array(0 => 'chicago', 1 => 'london', 2 => 'paris')
     }} 

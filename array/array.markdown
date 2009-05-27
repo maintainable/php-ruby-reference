@@ -19,7 +19,7 @@ cannot skip elements in a Ruby array.
 
 
 {{code:php
-    array = array('chicago', 'london', 'paris');
+    $array = array('chicago', 'london', 'paris');
     var_export($array);
     // => array(0 => 'chicago', 1 => 'london', 2 => 'paris')
 }}
