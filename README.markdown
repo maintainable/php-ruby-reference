@@ -6,7 +6,7 @@ This repository contains the source files used to build the
 
 When learning a new language, it's easy to get hung up on little things.  This
 reference aims to ease the Ruby learning curve for PHP developers by mapping 
-many of PHP functions to their Ruby (and Rails) equivalents.
+many of the PHP functions to their Ruby (and Rails) equivalents.
 
 ## Organization
                       
