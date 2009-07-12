@@ -8,7 +8,8 @@
 }}
 
 {{code:ruby
-    abs_path = File.expand_path('../to/foobar')
+    require 'pathname'
+    abs_path = Pathname.new('../to/foobar').realpath.to_s
     p abs_path
 
     #=> "/absolute/path/to/foobar"
