@@ -1,9 +1,8 @@
 # array_diff
 
-We can find the difference between two arrays using the `Enumerable#reject`
-method. This method rebuilds an array based on conditions that are evaluated
-in a block. In the block we simply reject any element of the array that is in
-the comparison array.
+We can find the difference between two arrays using the `-` (subtract) method.
+This method returns a new array that is a copy of the original array `animals1`,
+removing any items that also appear in other array `animals2`.
 
 {{code:php
     $animals1 = array('cat', 'dog', 'bat', 'rat');
@@ -18,7 +17,7 @@ the comparison array.
     animals1 = ['cat', 'dog', 'bat', 'rat']
     animals2 = ['cat', 'dog']
 
-    p animals1.reject {|a| animals2.include?(a) }
+    p animals1 - animals2
     # => ["bat", "rat"]
 }}
 
