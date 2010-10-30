@@ -56,10 +56,11 @@ object if you need an ordered collection.
     // => array('age' => 26, 'name' => 'Joe', 'country' => 'USA')
 }}
 
+
 {{code:ruby
-    $array = array('age' => 26, 'name' => 'Joe', 'country' => 'USA');
-    var_export($array);
-    // => array('age' => 26, 'name' => 'Joe', 'country' => 'USA')
+    hash = {:age => 26, :name => "Joe", :country => "USA"}
+    p hash
+    # => {:name=>"Joe", :age=>26, :country=>"USA"}
 }}
 
 
