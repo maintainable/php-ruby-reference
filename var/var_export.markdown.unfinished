@@ -1,16 +1,3 @@
 # var_export
 
-
-{{code:php
-}}
-
-
-{{code:ruby
-}}
-
-
-{{related:
-    var/print_r
-    var/serialize
-    var/var_dump
-}}
+`var_export` -- Alias of [print_r](../var/print_r)

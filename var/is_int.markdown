@@ -11,7 +11,7 @@ We can check if a variable is an integer in Ruby using `Object#is_a?`.
 }}
 
 
-{{code:php
+{{code:ruby
     number = 2
     p number.is_a?(Integer)
     # => true
