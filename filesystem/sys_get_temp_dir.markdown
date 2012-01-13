@@ -16,3 +16,9 @@ Returns directory path used for temporary files.
 
   #=> "/tmp"
 }}
+
+{{related:
+    filesystem/basename
+    filesystem/dirname
+    filesystem/pathinfo
+}}
