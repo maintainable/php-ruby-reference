@@ -9,7 +9,7 @@
 
 {{code:ruby
     is_dir = File.directory?('/path/to/foobar')
-    var_export(is_dir)
+    p is_dir
 
     #=> true
 }}
