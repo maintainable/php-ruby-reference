@@ -2,10 +2,43 @@
 
 
 {{code:php
+	$a = array ('a' => 'apple', 'b' => 'banana', 'c' => array ('x', 'y', 'z'));
+	print_r ($a);
+	
+	//Array
+	//(
+    //	[a] => apple
+	//  [b] => banana
+    //	[c] => Array
+    //    	(
+    //        	[0] => x
+	//            [1] => y
+    //	        [2] => z
+    //  	)
+	//)
+	
 }}
 
 
 {{code:ruby
+	days = [ "Monday",
+         "Tuesday",
+         "Wednesday",
+         "Thursday",
+         "Friday",
+         "Saturday",
+         "Sunday"
+      ]
+	puts YAML::dump(days)
+	
+	//--- 
+	//- Monday
+	//- Tuesday
+	//- Wednesday
+	//- Thursday
+	//- Friday
+	//- Saturday
+	//- Sunday
 }}
 
 
