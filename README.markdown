@@ -1,9 +1,5 @@
 # PHP to Ruby Reference
 
-This repository contains the source files used to build the 
-[reference](http://railsforphp.com/reference) section of the 
-[Rails for PHP Developers](http://railsforphp.com) website.  
-
 When learning a new language, it's easy to get hung up on little things.  This
 reference aims to ease the Ruby learning curve for PHP developers by mapping 
 many of the PHP functions to their Ruby (and Rails) equivalents.
@@ -15,18 +11,11 @@ manual as practical. The directories in this repository map to the sections of
 the PHP manual.
 
 "Class/Object Information" is named `classobj` in the PHP manual and can be
-viewed at [http://php.net/classobj](http://php.net/classobj). This can be
-viewed in our reference at
-[http://railsforphp.com/reference/classobj](http://railsforphp.com/reference/classobj)
-and the directory for the source files in this repository is also named
-`classobj`.
+viewed at [http://php.net/classobj](http://php.net/classobj). The directory
+for the source files in this repository is also named `classobj`.
 
 Within each directory of this repository, there are a collection of Markdown
 files whose filenames match the names of corresponding PHP functions.
-
-The file `classobj/call_user_func_array` contains the reference page for the
-`call_user_func_array` function and can be viewed in our reference at
-[http://railsforphp.com/reference/classobj](http://railsforphp.com/reference/classobj).
 
 While our system is certainly less sophisticated than Docbook and the
 PhD rendering system used by the PHP manual, it's lightweight and gets 
@@ -34,8 +23,7 @@ the job done for our purposes here.
 
 ## File Format
 
-Every Markdown file shares the same basic structure.  You must also
-follow this structure if you write for the reference.  Browse some of the 
+Every Markdown file shares the same basic structure.  Browse some of the 
 files in this repository to see it.
 
 We're added these simple extensions to the standard Markdown syntax:
@@ -85,29 +73,3 @@ braces with a `related:` marker:
     }}
 
 Typically, the related function list will mirror that of the PHP manual.
-
-## Contribute
-
-We welcome your contributions to this reference.  There are many functions to
-document and we would appreciate your help.
-
-To contribute your own additions or changes, fork the repository on GitHub.
-When your changes are ready to be merged into our reference, just send us a
-pull request.
-
-## How It Works
-
-Our website runs on Wordpress and uses a custom theme and plugin that we've
-written. Periodically, we run a parser over the files in this repository that
-we built on top of
-[Solar_Markdown](http://solarphp.com/package/Solar_Markdown). That tool
-automatically builds the HTML used by our Wordpress plugin to display the 
-reference section.
-
-## Get the Book
-
-The [Rails for PHP Developers](http://pragprog.com/titles/ndphpr/rails-for-php-developers)
-book is available in both paper and PDF format from the Pragmatic Bookshelf.  It offers
-an introduction to Ruby, takes the reader through building a Rails application 
-step-by-step, and contains about 120 pages of additional reference material 
-that is not found here.  
